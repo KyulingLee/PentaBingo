@@ -249,8 +249,12 @@
 		C72CAD9E190BC2E900C0B66D /* TestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CAD9C190BC2E900C0B66D /* TestScene.cpp */; };
 		C72CADA1190BD60000C0B66D /* GameSelectScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CAD9F190BD60000C0B66D /* GameSelectScene.cpp */; };
 		C72CADA4190BD61E00C0B66D /* BingoGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CADA2190BD61E00C0B66D /* BingoGameScene.cpp */; };
-		C72CADAD190C1EE000C0B66D /* bingoNodeBallNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C72CADAB190C1EE000C0B66D /* bingoNodeBallNormal.png */; };
-		C72CADAE190C1EE000C0B66D /* bingoNodeBallNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C72CADAC190C1EE000C0B66D /* bingoNodeBallNormal@2x.png */; };
+		C769FEAB190C250200B043E9 /* bingoShowingBall.png in Resources */ = {isa = PBXBuildFile; fileRef = C769FEA9190C250200B043E9 /* bingoShowingBall.png */; };
+		C769FEAC190C250200B043E9 /* bingoShowingBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C769FEAA190C250200B043E9 /* bingoShowingBall@2x.png */; };
+		C769FEB1190C2FD900B043E9 /* SpriteSheet_without_bg.plist in Resources */ = {isa = PBXBuildFile; fileRef = C769FEAF190C2FD900B043E9 /* SpriteSheet_without_bg.plist */; };
+		C769FEB2190C2FD900B043E9 /* SpriteSheet_without_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C769FEB0190C2FD900B043E9 /* SpriteSheet_without_bg.png */; };
+		C769FEB9190C344200B043E9 /* WoodFine.png in Resources */ = {isa = PBXBuildFile; fileRef = C769FEB7190C344200B043E9 /* WoodFine.png */; };
+		C769FEBA190C344200B043E9 /* WoodFine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C769FEB8190C344200B043E9 /* WoodFine@2x.png */; };
 		D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D41A0AD0160F154A004552AE /* Default-568h@2x.png */; };
 		D446FD6E16102124000ADA7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD6D16102124000ADA7B /* Default@2x.png */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -777,8 +781,12 @@
 		C72CADA0190BD60000C0B66D /* GameSelectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameSelectScene.h; path = ../Classes/GameSelectScene.h; sourceTree = "<group>"; };
 		C72CADA2190BD61E00C0B66D /* BingoGameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BingoGameScene.cpp; path = ../Classes/BingoGameScene.cpp; sourceTree = "<group>"; };
 		C72CADA3190BD61E00C0B66D /* BingoGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BingoGameScene.h; path = ../Classes/BingoGameScene.h; sourceTree = "<group>"; };
-		C72CADAB190C1EE000C0B66D /* bingoNodeBallNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bingoNodeBallNormal.png; sourceTree = "<group>"; };
-		C72CADAC190C1EE000C0B66D /* bingoNodeBallNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bingoNodeBallNormal@2x.png"; sourceTree = "<group>"; };
+		C769FEA9190C250200B043E9 /* bingoShowingBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bingoShowingBall.png; sourceTree = "<group>"; };
+		C769FEAA190C250200B043E9 /* bingoShowingBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bingoShowingBall@2x.png"; sourceTree = "<group>"; };
+		C769FEAF190C2FD900B043E9 /* SpriteSheet_without_bg.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SpriteSheet_without_bg.plist; sourceTree = "<group>"; };
+		C769FEB0190C2FD900B043E9 /* SpriteSheet_without_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpriteSheet_without_bg.png; sourceTree = "<group>"; };
+		C769FEB7190C344200B043E9 /* WoodFine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WoodFine.png; sourceTree = "<group>"; };
+		C769FEB8190C344200B043E9 /* WoodFine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WoodFine@2x.png"; sourceTree = "<group>"; };
 		D41A0AD0160F154A004552AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../proj.ios/Default-568h@2x.png"; sourceTree = "<group>"; };
 		D446FD6D16102124000ADA7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../proj.ios/Default@2x.png"; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -1914,8 +1922,12 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C72CADAB190C1EE000C0B66D /* bingoNodeBallNormal.png */,
-				C72CADAC190C1EE000C0B66D /* bingoNodeBallNormal@2x.png */,
+				C769FEB7190C344200B043E9 /* WoodFine.png */,
+				C769FEB8190C344200B043E9 /* WoodFine@2x.png */,
+				C769FEAF190C2FD900B043E9 /* SpriteSheet_without_bg.plist */,
+				C769FEB0190C2FD900B043E9 /* SpriteSheet_without_bg.png */,
+				C769FEA9190C250200B043E9 /* bingoShowingBall.png */,
+				C769FEAA190C250200B043E9 /* bingoShowingBall@2x.png */,
 				C72CADA5190C1C9900C0B66D /* Base Image */,
 			);
 			name = Resources;
@@ -2008,18 +2020,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C769FEAB190C250200B043E9 /* bingoShowingBall.png in Resources */,
 				7855E0E1153FEF240059DD9A /* Default.png in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
 				D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */,
 				D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */,
 				D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */,
 				D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */,
+				C769FEB1190C2FD900B043E9 /* SpriteSheet_without_bg.plist in Resources */,
+				C769FEAC190C250200B043E9 /* bingoShowingBall@2x.png in Resources */,
+				C769FEB2190C2FD900B043E9 /* SpriteSheet_without_bg.png in Resources */,
+				C769FEB9190C344200B043E9 /* WoodFine.png in Resources */,
 				D446FD6E16102124000ADA7B /* Default@2x.png in Resources */,
-				C72CADAD190C1EE000C0B66D /* bingoNodeBallNormal.png in Resources */,
+				C769FEBA190C344200B043E9 /* WoodFine@2x.png in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
-				C72CADAE190C1EE000C0B66D /* bingoNodeBallNormal@2x.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

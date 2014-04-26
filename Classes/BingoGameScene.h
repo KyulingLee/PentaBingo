@@ -21,8 +21,10 @@ public:
     
     CREATE_FUNC(BingoGameScene);
     
+    int bingoBoard[5][5];
     
     
+    void nodeSelect(CCNode *node);
 };
 
 
