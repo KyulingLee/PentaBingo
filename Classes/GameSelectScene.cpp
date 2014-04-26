@@ -7,6 +7,7 @@
 //
 
 #include "GameSelectScene.h"
+#include "BingoGameScene.h"
 
 USING_NS_CC;
 
@@ -33,7 +34,6 @@ bool GameSelectScene::init()
     }
     
     //KYULING: 게임 승리방법을 선택하여 방에 입장합니다.
-    
     CCMenuItemLabel *fastModeMenuItem = CCMenuItemLabel::create(CCLabelTTF::create("Fast Mode", "Arial", 24), this, menu_selector(GameSelectScene::fastModeSelected));
     CCMenuItemLabel *manyModeMenuItem = CCMenuItemLabel::create(CCLabelTTF::create("Many Mode", "Arial", 24), this, menu_selector(GameSelectScene::manyModeSelected));
     
@@ -55,12 +55,16 @@ bool GameSelectScene::init()
 
 void GameSelectScene::fastModeSelected()
 {
-    
+    //CCScene *scene = CCTransitionFadeBL::create(1.0f, BingoGameScene::scene());
+    CCScene *scene = BingoGameScene::scene();
+    CCDirector::sharedDirector()->pushScene(scene);
 }
 
 void GameSelectScene::manyModeSelected()
 {
-    
+    //CCScene *scene = CCTransitionFadeBL::create(1.0f, BingoGameScene::scene());
+    CCScene *scene = BingoGameScene::scene();
+    CCDirector::sharedDirector()->pushScene(scene);
 }
 
 void GameSelectScene::backButtonTapped()

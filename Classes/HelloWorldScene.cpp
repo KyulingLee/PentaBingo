@@ -64,7 +64,8 @@ void HelloWorld::menuCloseCallback(CCObject* pSender)
 
 void HelloWorld::gameStartMenuTapped()
 {
-    CCScene *scene = CCTransitionCrossFade::create(1.0f, GameSelectScene::scene());
+    //CCScene *scene = CCTransitionCrossFade::create(1.0f, GameSelectScene::scene());
+    CCScene *scene = GameSelectScene::scene();
     CCDirector::sharedDirector()->pushScene(scene);
 }
 

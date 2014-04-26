@@ -249,6 +249,8 @@
 		C72CAD9E190BC2E900C0B66D /* TestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CAD9C190BC2E900C0B66D /* TestScene.cpp */; };
 		C72CADA1190BD60000C0B66D /* GameSelectScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CAD9F190BD60000C0B66D /* GameSelectScene.cpp */; };
 		C72CADA4190BD61E00C0B66D /* BingoGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CADA2190BD61E00C0B66D /* BingoGameScene.cpp */; };
+		C72CADAD190C1EE000C0B66D /* bingoNodeBallNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C72CADAB190C1EE000C0B66D /* bingoNodeBallNormal.png */; };
+		C72CADAE190C1EE000C0B66D /* bingoNodeBallNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C72CADAC190C1EE000C0B66D /* bingoNodeBallNormal@2x.png */; };
 		D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D41A0AD0160F154A004552AE /* Default-568h@2x.png */; };
 		D446FD6E16102124000ADA7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD6D16102124000ADA7B /* Default@2x.png */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -775,6 +777,8 @@
 		C72CADA0190BD60000C0B66D /* GameSelectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameSelectScene.h; path = ../Classes/GameSelectScene.h; sourceTree = "<group>"; };
 		C72CADA2190BD61E00C0B66D /* BingoGameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BingoGameScene.cpp; path = ../Classes/BingoGameScene.cpp; sourceTree = "<group>"; };
 		C72CADA3190BD61E00C0B66D /* BingoGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BingoGameScene.h; path = ../Classes/BingoGameScene.h; sourceTree = "<group>"; };
+		C72CADAB190C1EE000C0B66D /* bingoNodeBallNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bingoNodeBallNormal.png; sourceTree = "<group>"; };
+		C72CADAC190C1EE000C0B66D /* bingoNodeBallNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bingoNodeBallNormal@2x.png"; sourceTree = "<group>"; };
 		D41A0AD0160F154A004552AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../proj.ios/Default-568h@2x.png"; sourceTree = "<group>"; };
 		D446FD6D16102124000ADA7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../proj.ios/Default@2x.png"; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -1910,6 +1914,17 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C72CADAB190C1EE000C0B66D /* bingoNodeBallNormal.png */,
+				C72CADAC190C1EE000C0B66D /* bingoNodeBallNormal@2x.png */,
+				C72CADA5190C1C9900C0B66D /* Base Image */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		C72CADA5190C1C9900C0B66D /* Base Image */ = {
+			isa = PBXGroup;
+			children = (
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
 				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
@@ -1921,8 +1936,7 @@
 				D4EF949915BD2D8B00D803EB /* Icon-57.png */,
 				D4EF949D15BD2D9600D803EB /* Icon-72.png */,
 			);
-			name = Resources;
-			path = ../Resources;
+			name = "Base Image";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2001,9 +2015,11 @@
 				D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */,
 				D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */,
 				D446FD6E16102124000ADA7B /* Default@2x.png in Resources */,
+				C72CADAD190C1EE000C0B66D /* bingoNodeBallNormal.png in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
+				C72CADAE190C1EE000C0B66D /* bingoNodeBallNormal@2x.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
