@@ -17,6 +17,9 @@ public:
     
     // implement the "static node()" method manually
     CREATE_FUNC(HelloWorld);
+    
+    void gameStartMenuTapped();
+    void gameOptionMenuTapped();
 };
 
 #endif // __HELLOWORLD_SCENE_H__

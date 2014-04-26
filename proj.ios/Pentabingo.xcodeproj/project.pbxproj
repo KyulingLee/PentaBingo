@@ -245,6 +245,10 @@
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		C72CAD9B190BC28F00C0B66D /* GameOptionScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CAD99190BC28F00C0B66D /* GameOptionScene.cpp */; };
+		C72CAD9E190BC2E900C0B66D /* TestScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CAD9C190BC2E900C0B66D /* TestScene.cpp */; };
+		C72CADA1190BD60000C0B66D /* GameSelectScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CAD9F190BD60000C0B66D /* GameSelectScene.cpp */; };
+		C72CADA4190BD61E00C0B66D /* BingoGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C72CADA2190BD61E00C0B66D /* BingoGameScene.cpp */; };
 		D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D41A0AD0160F154A004552AE /* Default-568h@2x.png */; };
 		D446FD6E16102124000ADA7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D446FD6D16102124000ADA7B /* Default@2x.png */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
@@ -763,6 +767,14 @@
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C72CAD99190BC28F00C0B66D /* GameOptionScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameOptionScene.cpp; path = ../Classes/GameOptionScene.cpp; sourceTree = "<group>"; };
+		C72CAD9A190BC28F00C0B66D /* GameOptionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOptionScene.h; path = ../Classes/GameOptionScene.h; sourceTree = "<group>"; };
+		C72CAD9C190BC2E900C0B66D /* TestScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestScene.cpp; path = ../Classes/TestScene.cpp; sourceTree = "<group>"; };
+		C72CAD9D190BC2E900C0B66D /* TestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestScene.h; path = ../Classes/TestScene.h; sourceTree = "<group>"; };
+		C72CAD9F190BD60000C0B66D /* GameSelectScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameSelectScene.cpp; path = ../Classes/GameSelectScene.cpp; sourceTree = "<group>"; };
+		C72CADA0190BD60000C0B66D /* GameSelectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameSelectScene.h; path = ../Classes/GameSelectScene.h; sourceTree = "<group>"; };
+		C72CADA2190BD61E00C0B66D /* BingoGameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BingoGameScene.cpp; path = ../Classes/BingoGameScene.cpp; sourceTree = "<group>"; };
+		C72CADA3190BD61E00C0B66D /* BingoGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BingoGameScene.h; path = ../Classes/BingoGameScene.h; sourceTree = "<group>"; };
 		D41A0AD0160F154A004552AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../proj.ios/Default-568h@2x.png"; sourceTree = "<group>"; };
 		D446FD6D16102124000ADA7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../proj.ios/Default@2x.png"; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -1295,6 +1307,14 @@
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
+				C72CAD99190BC28F00C0B66D /* GameOptionScene.cpp */,
+				C72CAD9A190BC28F00C0B66D /* GameOptionScene.h */,
+				C72CAD9C190BC2E900C0B66D /* TestScene.cpp */,
+				C72CAD9D190BC2E900C0B66D /* TestScene.h */,
+				C72CAD9F190BD60000C0B66D /* GameSelectScene.cpp */,
+				C72CADA0190BD60000C0B66D /* GameSelectScene.h */,
+				C72CADA2190BD61E00C0B66D /* BingoGameScene.cpp */,
+				C72CADA3190BD61E00C0B66D /* BingoGameScene.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -2064,6 +2084,7 @@
 				15A3D9A41682F7F9002FB0C5 /* cpBB.c in Sources */,
 				15A3D9A51682F7F9002FB0C5 /* cpBBTree.c in Sources */,
 				15A3D9A61682F7F9002FB0C5 /* cpBody.c in Sources */,
+				C72CAD9B190BC28F00C0B66D /* GameOptionScene.cpp in Sources */,
 				15A3D9A71682F7F9002FB0C5 /* cpCollision.c in Sources */,
 				15A3D9A81682F7F9002FB0C5 /* cpHashSet.c in Sources */,
 				15A3D9A91682F7F9002FB0C5 /* cpPolyShape.c in Sources */,
@@ -2103,6 +2124,7 @@
 				298B29C118D0668400C1920F /* ListViewReader.cpp in Sources */,
 				15A3DA451682F826002FB0C5 /* CCParticleSystemQuadLoader.cpp in Sources */,
 				15A3DA461682F826002FB0C5 /* CCScale9SpriteLoader.cpp in Sources */,
+				C72CADA4190BD61E00C0B66D /* BingoGameScene.cpp in Sources */,
 				15A3DA471682F826002FB0C5 /* CCScrollViewLoader.cpp in Sources */,
 				15A3DA481682F826002FB0C5 /* CCSpriteLoader.cpp in Sources */,
 				15A3DA491682F826002FB0C5 /* CCControl.cpp in Sources */,
@@ -2126,6 +2148,7 @@
 				15A3DA571682F826002FB0C5 /* CCEditBoxImplIOS.mm in Sources */,
 				15A3DA591682F826002FB0C5 /* CCScrollView.cpp in Sources */,
 				15A3DA5A1682F826002FB0C5 /* CCSorting.cpp in Sources */,
+				C72CAD9E190BC2E900C0B66D /* TestScene.cpp in Sources */,
 				15A3DA5B1682F826002FB0C5 /* CCTableView.cpp in Sources */,
 				15A3DA5C1682F826002FB0C5 /* CCTableViewCell.cpp in Sources */,
 				15A3DA5D1682F826002FB0C5 /* HttpClient.cpp in Sources */,
@@ -2205,6 +2228,7 @@
 				379BB9BD17F03F3700829B88 /* UIListView.cpp in Sources */,
 				379BB9BE17F03F3700829B88 /* UIPageView.cpp in Sources */,
 				379BB9BF17F03F3700829B88 /* UIScrollView.cpp in Sources */,
+				C72CADA1190BD60000C0B66D /* GameSelectScene.cpp in Sources */,
 				379BB9C017F03F3700829B88 /* UIButton.cpp in Sources */,
 				375BD50E1868454E0024609E /* CCActionEaseEx.cpp in Sources */,
 				379BB9C117F03F3700829B88 /* UICheckBox.cpp in Sources */,
