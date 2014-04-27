@@ -114,13 +114,13 @@
             <key>format</key>
             <integer>2</integer>
             <key>realTextureFileName</key>
-            <string>SpriteSheet_without_bg.png</string>
+            <string>CircleNodeData.png</string>
             <key>size</key>
             <string>{222,222}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:840b308e08a5de5939d494469e892220:39148c6dc6009b3d7b7ac8320a84faf1:20ff5f2574374f2011535d4180653a84$</string>
+            <string>$TexturePacker:SmartUpdate:03ffab58fc1629551ff28e670374a9b7:39148c6dc6009b3d7b7ac8320a84faf1:1e2f6deb54239c6ee73088a61a359d25$</string>
             <key>textureFileName</key>
-            <string>SpriteSheet_without_bg.png</string>
+            <string>CircleNodeData.png</string>
         </dict>
     </dict>
 </plist>
